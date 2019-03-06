@@ -7,7 +7,7 @@
 
 body {
     /*background-image: url('../pictures/bl-01.png');*/
-    background-color: white;
+    background-color: grey;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -15,10 +15,11 @@ body {
 }
 
 html {
-    background-color: white;
+    background-color: grey;
+    
 }
 
-
+/*#f3fffa*/
 
 /*	--------------------------------------------------
 	:: Header
@@ -28,7 +29,7 @@ html {
     padding-top: 15px;
     padding-bottom: 15px;
     /*background: rgba(0, 0, 0, 0.5);*/
-    background: white;
+    background-color: whitesmoke;
     width: 100%;
 }
 
@@ -55,13 +56,14 @@ html {
 
 .navigation {
     text-decoration: none;
-    color: #a0a0a0;
+    color: black;
+    /*color: #a0a0a0;*/
     font-size: 18pt;
     font-family: 'Covered By Your Grace', cursive;
 }
 
 .navigation:hover{
-    color: #000080;
+    color: #a5dce1;
     text-decoration: none;
 }
 
@@ -72,14 +74,14 @@ html {
     right: 0px;
     font-size: 30px;
     cursor: pointer;
-    color: #000080;
+    color: black;
     display: none;
     padding-right: 15px;
     margin-top: 10px;
 }
 
 #mobile-navigation:hover {
-    color: #000080;
+    color: #a5dce1;
     margin-top: 10px;
 }
 
@@ -140,19 +142,14 @@ html {
 
 
 #opening-tag {
-    color: #000080;
+    color: #a5dce1;
     font-family: 'Covered By Your Grace', cursive;
     text-align: center;
     padding-top: 140px;
     font-size: 100px;
+    font-weight: normal;
 }
-
-
-/* #canvas {
-    width: 100%;
-    margin-bottom: 45px;
-    align-content: center;
-} */ 
+ 
 
 @media only all and (max-width: 480px) {
     #home-page {
@@ -163,236 +160,6 @@ html {
     }
 
 }
-
-
-/*	--------------------------------------------------
-	:: About
-	-------------------------------------------------- */
-
-#about-me-top {
-    background: rgba(0, 0, 0, 0.5);
-    margin-top: 35px;
-    margin-bottom: 45px;
-    padding-bottom: 20px;
-    padding-top: 25px;
-    width: 100%;
-}
-
-.me {
-    margin-top: 8px;
-    margin-bottom: 10px;
-}
-
-#i-am {
-    font-family: 'Covered By Your Grace', cursive;
-    color: #a5dce1;
-    margin-top: 10px;
-    text-align: center;
-}
-
-
-.about-me-paragraphs {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #a5dce1;
-    font-size: 15px;
-    text-align: center;
-    padding-top: 22px;
-    padding-bottom: 22px;
-}
-
-#last-paragraph {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #a5dce1;
-    font-size: 15px;
-    text-align: center;
-    padding-top: 22px;
-    padding-bottom: 22px;
-}
-
-
-#Why {
-    background: #a5dce1;
-    width: 100%;
-    font-family: 'Covered By Your Grace', cursive;
-    text-align: center;
-    color: #000000;
-    margin-top: 90px;
-    margin-bottom: 45px;
-    padding-bottom: 10px;
-}
-
-
-.paragraph-why {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #000000;
-}
-
-
-#random-facts {
-    font-family: 'Covered By Your Grace', cursive;
-    color: #a5dce1;
-    margin: 45px 0 25px 0;
-    text-align: center;
-}
-
-
-.random-facts-list {
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 12px;
-    color: #000000;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    background-color: #a5dce1;
-    padding: 20px 25px 20px 25px;
-    cursor: pointer;
-}
-
-.facts-list-group {
-    background: rgba(0, 0, 0, 0.5);
-    margin-top: 90px;
-    margin-bottom: 50px;
-}
-
-#click-show-name:hover {
-    cursor: pointer;
-}
-
-
-@media only all and (max-width: 992px) {
-    #me {
-        width: 100%;
-        align-content: center;
-        margin-right: 50px;
-    }
-}
-
-@media only all and (max-width: 768px) {
-    .about-me-paragraphs {
-        width: 100%;
-        font-size: 10pt;
-        background: 100%;
-    }
-}
-
-@media only all and (max-width: 768px) {
-    #last-paragraph {
-        width: 100%;
-        font-size: 10pt;
-        background: 100%;
-    }
-}
-
-@media only all and (max-width: 768px) {
-    #i-am {
-        font-size: 20pt;
-    }
-}
-
-
-
-/*	--------------------------------------------------
-	:: Photography
-	-------------------------------------------------- */
-
-.seniors-title {
-    font-family: 'Covered By Your Grace', cursive;
-    color: #a5dce1;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 45px;
-    margin-bottom: 20px;
-}
-
-#seniors {
-    margin-bottom: 25px;
-}
-
-/*.Book-Now-Prices {
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-left: 510px;
-    color: #000000;
-    font-family: 'Covered By Your Grace', cursive;
-    background-color: #e4ff4e;
-    border: none;
-    font-size: 15px;
-}*/
-
-.photography-lines {
-    color: #a5dce1;
-    margin-top: 90px;
-}
-
-
-
-#scenery {
-    margin-bottom: 45px;
-}
-
-
-/*@media only all and (max-width: 480px) {
-    .prices {
-        width: 40%;
-    }
-
-    .book-now {
-        width: 40%;
-    }
-
-}*/
-
-@media only all and (max-width: 480px) {
-    .photography-lines {
-        margin-top: 40px;
-        margin-bottom: 20px;
-    }
-
-    .seniors-title {
-        font-size: 20pt;
-    }
-}
-
-/*	--------------------------------------------------
-	:: Photography Prices and Booking sessions
-	-------------------------------------------------- */
-
-/*.photography-book-now {
-    font-family: 'Covered By Your Grace', cursive;
-    color: #a5dce1;
-    font-size: 55px;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-
-.session-type{
-    text-align: center;
-}*/
-
-/*#photography-prices{
-    font-family: 'Covered By Your Grace', cursive;
-    color: #a5dce1;
-    font-size: 55px;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}*/
-
-/*
-#prices-booking {
-    background: rgba(0, 0, 0, 0.5);
-    margin-top: 45px;
-    margin-bottom: 45px;
-}*/
-
-/*.prices-booking-paragraphs {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #a5dce1;
-    font-size: 16px;
-    text-align: center;
-    padding: 37px 37px 37px 37px;
-}*/
 
 /*	--------------------------------------------------
 	:: JQuery Masonry
@@ -428,141 +195,6 @@ html {
     }
 }
 
-/*	--------------------------------------------------
-	:: Photography Pages
-	-------------------------------------------------- 
-
-.seniors {
-    margin-top: 45px;
-    opacity: 1.0;
-    opacity: 1;
-}
-
-.seniors:hover {
-    margin-top: 45px;
-    opacity: 0.6;
-    opacity: .6;
-}
-
-@media only all and (max-width: 480px) {
-    .posters {
-        font-size: 12px;
-        margin: 10px 0 20px 0;
-    }
-}
-
-.portriat-page {
-    margin-top: 45px;
-    opacity: 1.0;
-    opacity: 1;
-}
-
-.portriat-page:hover {
-    margin-top: 45px;
-    opacity: 0.6;
-    opacity: .6;
-}
-
-@media only all and (max-width: 480px) {
-    .posters {
-        font-size: 12px;
-        margin: 10px 0 20px 0;
-    }
-}
-
-.portrait-albums:hover{
-    opacity: 0.6;
-    filter:  (opacity=60);
-}
-
-.families {
-    margin-top: 45px;
-    margin-top: 45px;
-    opacity: 1.0;
-    opacity: 1;
-}
-
-.families:hover {
-    margin-top: 45px;
-    opacity: 0.6;
-    opacity: .6;
-}
-
-@media only all and (max-width: 480px) {
-    .posters {
-        font-size: 12px;
-        margin: 10px 0 20px 0;
-    }
-}
-
-.couples {
-    margin-top: 45px;
-    margin-top: 45px;
-    opacity: 1.0;
-    opacity: 1;
-}
-
-.couples:hover {
-    margin-top: 45px;
-    opacity: 0.6;
-    opacity: .6;
-}
-
-@media only all and (max-width: 480px) {
-    .couples {
-        font-size: 12px;
-        margin: 10px 0 20px 0;
-    }
-}
-
-.events {
-    margin-top: 45px;
-    margin-top: 45px;
-    opacity: 1.0;
-    opacity: 1;
-}
-
-.events:hover {
-    margin-top: 45px;
-    opacity: 0.6;
-    opacity: .6;
-}
-
-@media only all and (max-width: 480px) {
-    .posters {
-        font-size: 12px;
-        margin: 10px 0 20px 0;
-    }
-}
-
-.scenery {
-    margin-top: 45px;
-    opacity: 1.0;
-    opacity: 1;
-}
-
-.scenery:hover {
-    margin-top: 45px;
-    opacity: 0.6;
-    opacity: .6;
-}
-
-@media only all and (max-width: 480px) {
-    .posters {
-        font-size: 12px;
-        margin: 10px 0 20px 0;
-    }
-}
-
-/*img {
-    opacity: 0.4;
-    filter:  (opacity=40);
-}
-
-img:hover {
-    opacity: 1.0;
-    filter:  (opacity=100);
-}*/
 
 /*	--------------------------------------------------
 	:: Graphic Design
@@ -644,75 +276,10 @@ img:hover {
     font-size: 21px;
     text-decoration: none;
     text-align: center;
-}
-
-.scroll-text {
-    text-decoration: none;
-}
-
-.scrolltext a{
-    text-decoration: none;
-    text-align: center;
-    font-size: 70px;
-    color: #ffffff;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-bottom: 45px;
-    height: 100px;
-    background: rgba(0, 0, 0, 0.7);
+    margin-top: 100px;
 }
 
 
-.scrolltext a:hover {
-    color: #e4ff4e;
-    text-decoration: none;
-    font-size: 70px;
-    text-align: center;
-}
-
-
-.scrolltext2 a {
-    text-decoration: none;
-    text-align: center;
-    font-size: 70px;
-    color: #ffffff;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-bottom: 45px;
-    height: 100px;
-    background: rgba(0, 0, 0, 0.7);
-}
-
-.scrolltext2 a:hover {
-    color: #e4ff4e;
-    text-decoration: none;
-    font-size: 70px;
-    text-align: center;
-}
-
-
-
-/*.parallax {
-    background-image: url("../images/WebsiteDesign/blog-web.JPG");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 45px 0 0 0;
-    width: 100%;
-    opacity: .8;
-}
-
-.parallax2 {
-    background-image: url("../images/WebsiteDesign/oldwebsite-web.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 0 45px 0;
-    width: 100%;
-    opacity: .8;
-}*/
 
 @media only all and (max-width: 480px) {
     .website {
@@ -720,122 +287,10 @@ img:hover {
     }
 }
 
-.page-title {
-    padding: 150px 0;
-    -webkit-background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    text-decoration: none;
-    background-image: url("../images/WebsiteDesign/blog-web.JPG");
-    width: 100%;
-    height: auto;
-}
-
-.page-title2 {
-    padding: 150px 0;
-    -webkit-background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    text-decoration: none;
-    background-image: url("../images/WebsiteDesign/oldwebsite-web.jpg");
-    width: 100%;
-    height: auto;
-}
-
-section {
-    overflow: hidden;
-}
-
-
-@media only all and (max-width: 992px) {
-
-    .page-title,
-    .page-title2{
-        height: auto;
-    }
-    
-    .scrolltext a,
-    .scrolltext a:hover{
-        font-size: 62px;
-        text-align: center;
-    }
-     
-    .scrolltext2 a,
-    .scrolltext2 a:hover{
-        font-size: 65px;
-        text-align: center;
-    }
-}
-
-@media only all and (max-width: 860px) {
-
-    .page-title,
-    .page-title2{
-        height: auto;
-    }
-    
-    .scrolltext a,
-    .scrolltext a:hover{
-        font-size:55x;
-        text-align: center;
-    }
-     
-    .scrolltext2 a,
-    .scrolltext2 a:hover{
-        font-size: 58px;
-        text-align: center;
-        padding-bottom: 0px;
-    }
-}
-
-@media only all and (max-width: 768px) {
-
-    .page-title,
-    .page-title2{
-        height: auto;
-    }
-    
-    .scrolltext a,
-    .scrolltext a:hover{
-        font-size: 27px;
-        text-align: center;
-        padding-top: 5px;
-    }
-     
-    .scrolltext2 a,
-    .scrolltext2 a:hover{
-        font-size: 30px;
-        text-align: center;
-        padding-top: 5px;
-    }
-}
 
 @media only all and (max-width: 480px) {
     .website {
         font-size: 16px;
-    }
-    
-    .page-title,
-    .page-title2{
-        height: auto;
-    }
-    
-    .scrolltext a,
-    .scrolltext a:hover{
-        font-size: 20px;
-        text-align: center;
-        padding-top: 9px;
-    }
-     
-    .scrolltext2 a,
-    .scrolltext2 a:hover{
-        font-size: 20px;
-        text-align: center;
-        padding-top: 13px;
     }
 }
 /*	--------------------------------------------------
